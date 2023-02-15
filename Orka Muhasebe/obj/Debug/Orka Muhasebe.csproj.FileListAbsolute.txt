@@ -1,0 +1,133 @@
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\Orka Muhasebe.exe.config
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\Orka Muhasebe.exe
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\Orka Muhasebe.pdb
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\netstandard.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.AppContext.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Collections.Concurrent.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Collections.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Collections.NonGeneric.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Collections.Specialized.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.ComponentModel.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.ComponentModel.Primitives.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Console.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Data.Common.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Diagnostics.Contracts.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Diagnostics.Debug.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Diagnostics.Process.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Diagnostics.Tools.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Diagnostics.Tracing.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Drawing.Primitives.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Dynamic.Runtime.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Globalization.Calendars.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Globalization.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Globalization.Extensions.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.IO.Compression.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.IO.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.IO.FileSystem.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.IO.IsolatedStorage.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.IO.Pipes.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Linq.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Linq.Expressions.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Linq.Parallel.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Linq.Queryable.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Net.Http.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Net.NameResolution.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Net.NetworkInformation.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Net.Ping.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Net.Primitives.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Net.Requests.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Net.Security.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Net.Sockets.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Net.WebSockets.Client.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Net.WebSockets.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.ObjectModel.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Reflection.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Reflection.Extensions.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Reflection.Primitives.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Resources.Reader.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Resources.ResourceManager.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Resources.Writer.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Runtime.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Runtime.Extensions.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Runtime.Handles.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Runtime.InteropServices.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Runtime.Numerics.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Security.Claims.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Security.Principal.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Security.SecureString.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Text.Encoding.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Text.RegularExpressions.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Threading.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Threading.Overlapped.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Threading.Tasks.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Threading.Thread.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Threading.ThreadPool.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Threading.Timer.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Xml.ReaderWriter.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Xml.XDocument.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Xml.XmlDocument.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Xml.XmlSerializer.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Xml.XPath.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\Orka Token.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\RestSharp.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Buffers.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Memory.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Numerics.Vectors.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Text.Encodings.Web.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Text.Json.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.ValueTuple.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\Newtonsoft.Json.dll
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\Orka Token.pdb
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\Orka Token.dll.config
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\RestSharp.xml
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Buffers.xml
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Memory.xml
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Numerics.Vectors.xml
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Text.Encodings.Web.xml
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Text.Json.xml
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\System.ValueTuple.xml
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\bin\Debug\Newtonsoft.Json.xml
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\obj\Debug\Orka Muhasebe.csproj.AssemblyReference.cache
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\obj\Debug\Orka Muhasebe.exe.config
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\obj\Debug\Orka_Muhasebe.frmOrkaMuhasebe.resources
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\obj\Debug\Orka_Muhasebe.Properties.Resources.resources
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\obj\Debug\Orka Muhasebe.csproj.GenerateResource.cache
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\obj\Debug\Orka Muhasebe.csproj.CoreCompileInputs.cache
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\obj\Debug\Orka Muhasebe.csproj.CopyComplete
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\obj\Debug\Orka Muhasebe.exe
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\obj\Debug\Orka Muhasebe.pdb
+D:\ORKA PROJECTS\ORKA API EXAMPLES\OrkaApiExamples\Orka Muhasebe\obj\Debug\Orka Muhasebe.csproj.SuggestedBindingRedirects.cache
