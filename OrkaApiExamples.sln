@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orka Token", "Orka Token\Orka Token.csproj", "{30944C64-9EE5-452C-B583-500C58DBE8B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orka Ticari", "Orka Ticari\Orka Ticari.csproj", "{9DE9976B-F346-4597-B252-82269DD4F756}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PROJE NOTLARI", "PROJE NOTLARI", "{65152669-57E0-42D5-87B5-0BE3884AFAEF}"
+	ProjectSection(SolutionItems) = preProject
+		BENIOKU.txt = BENIOKU.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orka Muhasebe", "Orka Muhasebe\Orka Muhasebe.csproj", "{ADFABDFE-26D8-4574-9A19-3C046B5907DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orka Personel", "Orka Personel\Orka Personel.csproj", "{2EB50E73-738C-47AD-86A3-A56A207A38C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30944C64-9EE5-452C-B583-500C58DBE8B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30944C64-9EE5-452C-B583-500C58DBE8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30944C64-9EE5-452C-B583-500C58DBE8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30944C64-9EE5-452C-B583-500C58DBE8B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE9976B-F346-4597-B252-82269DD4F756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE9976B-F346-4597-B252-82269DD4F756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE9976B-F346-4597-B252-82269DD4F756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE9976B-F346-4597-B252-82269DD4F756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADFABDFE-26D8-4574-9A19-3C046B5907DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFABDFE-26D8-4574-9A19-3C046B5907DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFABDFE-26D8-4574-9A19-3C046B5907DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFABDFE-26D8-4574-9A19-3C046B5907DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB50E73-738C-47AD-86A3-A56A207A38C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB50E73-738C-47AD-86A3-A56A207A38C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB50E73-738C-47AD-86A3-A56A207A38C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB50E73-738C-47AD-86A3-A56A207A38C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47DAB54F-063D-4119-988E-D8615F45B3A9}
+	EndGlobalSection
+EndGlobal
