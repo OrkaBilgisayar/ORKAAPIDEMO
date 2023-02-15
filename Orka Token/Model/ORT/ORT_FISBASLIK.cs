@@ -1,0 +1,99 @@
+using System;
+
+namespace OrkaToken.Model.ORT
+{
+    public class ORT_FISBASLIK
+    {
+
+        public int ID { get; set; }
+        public int? pin { get; set; }
+        public int konum { get; set; }
+        public int? isaret { get; set; }
+        public int? imgidx { get; set; }
+        public Guid? toplu_islem_UQ { get; set; }
+        public short? fisolusmatipi { get; set; }
+        public short fistipi { get; set; }
+        public DateTime fistarihi { get; set; }
+        public DateTime fiskayittarihi { get; set; }
+        public DateTime? fisvadetarihi { get; set; }
+        public DateTime fisdonemi { get; set; }
+        public int? fisniteligi { get; set; }
+        public string fisbelgeserino { get; set; }
+        public long? fisbelgeno { get; set; }
+        public short? fisodemetipi { get; set; }
+        public short? fisbelgetipi { get; set; }
+        public short? kdvbelgetipi { get; set; }
+        public DateTime? fisbelgetarihi { get; set; }
+        public int fisno { get; set; }
+        public string fisaciklama { get; set; }
+        public int? fisyevmiyeno { get; set; }
+        public decimal fistutar { get; set; }
+        public decimal? fisdvtutar { get; set; }
+        public short? fisdovizcinsi { get; set; }
+        public decimal? dovizkuru { get; set; }
+        public short? fisaltbirimcinsi { get; set; }
+        public int? IDfisnot { get; set; }
+        public bool? yevmiye { get; set; }
+        public bool? gunrapor { get; set; }
+        public bool? tahsilat { get; set; }
+        public bool? fistamam { get; set; }
+        public bool? fisentegre { get; set; }
+        public bool? kesinmizan { get; set; }
+        public int? IDkarsihesapkodu { get; set; }
+        public string karsihesapkodu { get; set; }
+        public string transfer_kodu { get; set; }
+        public short? isletmekayittipi { get; set; }
+        public int? grpadres { get; set; }
+        public int? grpcari { get; set; }
+        public int? grpdepartman { get; set; }
+        public int? grpgelirler { get; set; }
+        public int? grpgenel { get; set; }
+        public int? grpistatistik { get; set; }
+        public int? grpkatalog { get; set; }
+        public int? grpliste { get; set; }
+        public int? grpnakliye { get; set; }
+        public int? grppersonel { get; set; }
+        public int? grpplasiyer { get; set; }
+        public int? grpprojehizmet { get; set; }
+        public bool? kontrol0 { get; set; }
+        public bool? kontrol1 { get; set; }
+        public bool? kontrol2 { get; set; }
+        public bool? kontrol3 { get; set; }
+        public bool? kontrol4 { get; set; }
+        public bool? kontrol5 { get; set; }
+        public bool? kontrol6 { get; set; }
+        public bool? kontrol7 { get; set; }
+        public bool? kontrol8 { get; set; }
+        public bool? kontrol9 { get; set; }
+        public int? r_dvcins { get; set; }
+        public double? r_dvkuru { get; set; }
+        public decimal? r_deger1 { get; set; }
+        public decimal? r_deger2 { get; set; }
+        public decimal? r_deger3 { get; set; }
+        public decimal? r_deger4 { get; set; }
+        public decimal? r_deger5 { get; set; }
+        public double? hesap1 { get; set; }
+        public double? hesap2 { get; set; }
+        public double? hesap3 { get; set; }
+        public double? hesap4 { get; set; }
+        public double? hesap5 { get; set; }
+        public long? IDexpimp1 { get; set; }
+        public long? IDexpimp2 { get; set; }
+        public long? IDexpimp3 { get; set; }
+        public long? IDexpimp4 { get; set; }
+        public long? IDexpimp5 { get; set; }
+        public Guid kayitdamga { get; set; }
+        public byte[] tarihdamga { get; set; }
+        public Guid? baglidamga { get; set; }
+        public int? IDtranskayit { get; set; }
+        public int? priority { get; set; }
+        public int? firmnmbr { get; set; }
+        public int? firmyear { get; set; }
+        public string firstuser { get; set; }
+        public DateTime? firstdate { get; set; }
+        public string edituser { get; set; }
+        public DateTime? editdate { get; set; }
+        public int? grpdepoyeri { get; set; }
+        public int? grpsatisyeri { get; set; }
+    }
+}

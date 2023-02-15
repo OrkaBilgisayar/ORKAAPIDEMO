@@ -1,0 +1,106 @@
+using System;
+
+namespace OrkaToken.Model.ORT
+{
+    public class ORT_PLAN
+    {
+
+        public int ID { get; set; }
+        public int? pin { get; set; }
+        public int konum { get; set; }
+        public int? isaret { get; set; }
+        public int? imgidx { get; set; }
+        public Guid? toplu_islem_UQ { get; set; }
+        public bool? hesapaktif { get; set; }
+        public int kebirkod { get; set; }
+        public string plankod { get; set; }
+        public string planadi { get; set; }
+        public string planekadi { get; set; }
+        public int plantur { get; set; }
+        public string kisakod { get; set; }
+        public string kisaad { get; set; }
+        public string entplankod { get; set; }
+        public string persplanadi { get; set; }
+        public string transfer_kodu { get; set; }
+        public int? hesapturu { get; set; }
+        public int? hesapozetgrubu { get; set; }
+        public int? defterbeyankodu { get; set; }
+        public string hesapaltbirim { get; set; }
+        public int? KDVtablono { get; set; }
+        public int? OIVtablono { get; set; }
+        public int? doviztablono { get; set; }
+        public bool? efaturayatabi { get; set; }
+        public int? ebelgetipi { get; set; }
+        public int? efaturasenaryo { get; set; }
+        public string efaturaektbl01 { get; set; }
+        public string efaturaektbl04 { get; set; }
+        public string efaturaektbl06 { get; set; }
+        public int? efatura_calisma_no { get; set; }
+        public string efatura_programfaturaserino { get; set; }
+        public int? earsiv_sendingtype { get; set; }
+        public int? vergidairekod { get; set; }
+        public string vergidairesi { get; set; }
+        public string vergino { get; set; }
+        public string tckimlikno { get; set; }
+        public string ssksicilno { get; set; }
+        public string pasaportno { get; set; }
+        public DateTime? pasaporttarihi { get; set; }
+        public string ilgilikisi { get; set; }
+        public int? taksitsayi { get; set; }
+        public double? ilktaksitgunsayi { get; set; }
+        public short? vadesabitgunu { get; set; }
+        public double? vadeoran { get; set; }
+        public double? vadegunsayi { get; set; }
+        public int? ortalamavade { get; set; }
+        public string stokkodu { get; set; }
+        public bool? acikhesapduzelt { get; set; }
+        public bool? vadetakipsistemi { get; set; }
+        public int? fiyatuygulamasi { get; set; }
+        public int? IDgruptip { get; set; }
+        public int? IDicetablo { get; set; }
+        public string bankakod { get; set; }
+        public int? bankasirano { get; set; }
+        public string banka_plankod { get; set; }
+        public int? grpadres { get; set; }
+        public int? grpcari { get; set; }
+        public int? grpdepartman { get; set; }
+        public int? grpgelirler { get; set; }
+        public int? grpgenel { get; set; }
+        public int? grpistatistik { get; set; }
+        public int? grpkatalog { get; set; }
+        public int? grpliste { get; set; }
+        public int? grpnakliye { get; set; }
+        public int? grppersonel { get; set; }
+        public int? grpplasiyer { get; set; }
+        public int? grpprojehizmet { get; set; }
+        public int? grpdepoyeri { get; set; }
+        public int? r_dvcins { get; set; }
+        public double? r_dvkuru { get; set; }
+        public decimal? r_deger1 { get; set; }
+        public decimal? r_deger2 { get; set; }
+        public decimal? r_deger3 { get; set; }
+        public decimal? r_deger4 { get; set; }
+        public decimal? r_deger5 { get; set; }
+        public double? hesap1 { get; set; }
+        public bool? kontrol2 { get; set; }
+        public bool? kontrol3 { get; set; }
+        public bool? kontrol4 { get; set; }
+        public long? IDexpimp1 { get; set; }
+        public long? IDexpimp2 { get; set; }
+        public long? IDexpimp3 { get; set; }
+        public long? IDexpimp4 { get; set; }
+        public long? IDexpimp5 { get; set; }
+        public Guid? baglidamga { get; set; }
+        public int? IDtranskayit { get; set; }
+        public int? priority { get; set; }
+        public int? firmnmbr { get; set; }
+        public int? firmyear { get; set; }
+        public string firstuser { get; set; }
+        public DateTime? firstdate { get; set; }
+        public string edituser { get; set; }
+        public DateTime? editdate { get; set; }
+        public Guid kayitdamga { get; set; }
+        public byte[] tarihdamga { get; set; }
+        public int? grpsatisyeri { get; set; }
+    }
+}
