@@ -111,7 +111,7 @@ namespace Orka_Muhasebe
             RestClient Client = new RestClient("https://api.orka.com.tr/");
 
             //Request (istek) için oluşturuluyor içine data almak istediğiniz methodun url yazıyorsunuz 
-            var Request = new RestRequest("ERP/Accounting/AddAccountingCode");
+            var Request = new RestRequest("ERP/Accounting/AddCustomer");
 
             //Request (istek) için method seçiliyor (Post,Get Vb.)
             Request.Method = Method.Post;
