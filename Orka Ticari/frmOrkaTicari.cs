@@ -14,6 +14,7 @@ using OrkaToken.Model.DTO.Stoklar;
 using RestSharp;
 using static OrkaToken.Class.Enums;
 using OrkaToken;
+using System.Linq;
 
 namespace Orka_Ticari
 {
@@ -59,7 +60,7 @@ namespace Orka_Ticari
             var Response = Client.ExecuteAsync<OrkaResponseModel<IEnumerable<BelgeListDTO>>>(Request).Result;
 
             //Response ekranda görüntülemek için yapıldı zorunlu değil
-            rchSonuc.Text = Response.Data.ToJson();
+            rchSonuc.Text = Response.Data.ToJson();            
 
             //Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
             if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))
@@ -86,11 +87,11 @@ namespace Orka_Ticari
 
             //Request içinde body olarak request modeli oluşturuyoruz
             var Filter = new BelgeListFilterDTO();
-            Filter.belgeTarihi = new DateTime(2022, 01, 01);
-            Filter.bitisBelgeTarihi = new DateTime(2022, 12, 31);
+            Filter.belgeTip = TIC_BELGE_TIPLERI._Fatura_;
+		
 
-            //Oluşturulan modeli Request içine ekliyoruz 
-            Request.AddJsonBody(Filter);
+			//Oluşturulan modeli Request içine ekliyoruz 
+			Request.AddJsonBody(Filter);
 
 
 
@@ -133,7 +134,7 @@ namespace Orka_Ticari
                 Siparis.cariKodu = "120 1 00001";
                 Siparis.belgeSeriNo = "A";
                 Siparis.belgeNo = 31;
-                Siparis.belgeTarihi = new DateTime(2022, 01, 01);
+                Siparis.belgeTarihi = new DateTime(2024, 01, 01);
                 Siparis.belgeAciklamasi = "deneme Sipariş ";
                 Siparis.belgeUQ = Guid.NewGuid();
                 Siparis.Satirlar = new List<BelgeSatirlariBase>()
@@ -195,7 +196,7 @@ namespace Orka_Ticari
                 Siparis.cariKodu = "120 1 00001";
                 Siparis.belgeSeriNo = "A";
                 Siparis.belgeNo = 31;
-                Siparis.belgeTarihi = new DateTime(2022, 01, 01);
+                Siparis.belgeTarihi = new DateTime(2024, 01, 01);
                 Siparis.belgeAciklamasi = "deneme Sipariş ";
                 Siparis.belgeUQ = Guid.NewGuid();
                 Siparis.Satirlar = new List<BelgeSatirlariBase>()
@@ -259,14 +260,24 @@ namespace Orka_Ticari
             //OrkaResponse tüm dönüşlerde olan ana bir modeldir . Data kısmına ise kendi olutşurduğunuz modeli gönderebilirsiniz örneğin OrkaResponseModel<OLUSTURULAN MODEL>
             var Response = Client.ExecuteAsync<OrkaResponseModel<IEnumerable<OdemelerListDTO>>>(Request).Result;
 
-            //Response ekranda görüntülemek için yapıldı zorunlu değil
-            rchSonuc.Text = Response.Data.ToJson();
 
-            //Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
-            if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))
+            if(Response.Data != null)
             {
-                StatusLabel.Text = $"Ödemeler listesi alındı. Kayıt Sayısı : {Response.Data.RecordSize}";
+				//Response ekranda görüntülemek için yapıldı zorunlu değil
+				rchSonuc.Text = Response.Data.ToJson();
+
+				//Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
+				if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))
+				{
+					StatusLabel.Text = $"Ödemeler listesi alındı. Kayıt Sayısı : {Response.Data.RecordSize}";
+				}
+			}
+
+            else
+            {
+                rchSonuc.Text = Response.Content.ToString();
             }
+            
         }
 
         private void butPaymentListWithFilters_Click(object sender, EventArgs e)
@@ -286,10 +297,13 @@ namespace Orka_Ticari
 
 
             //Request içinde body olarak request modeli oluşturuyoruz
-            var Filter = new OdemeListFilterDTO();
-            Filter.belgeTarihi = new DateTime(2022, 01, 01);
-            Filter.bitisBelgeTarihi = new DateTime(2022, 12, 31);
-
+            var Filter = new List<OdemeListFilterDTO>();
+         
+            Filter.Add(new OdemeListFilterDTO { 
+                belgeTarihi = new DateTime(2024, 01, 01),
+                bitisBelgeTarihi = new DateTime(2024, 12, 31)
+		    });
+            
             //Oluşturulan modeli Request içine ekliyoruz 
             Request.AddJsonBody(Filter);
 
@@ -329,7 +343,7 @@ namespace Orka_Ticari
             //Örnek Model jsonları için https://api.orka.com.tr/doc bakabilirsiniz .
             var Odeme = new OdemeEkleBasit();
             {
-                Odeme.belgeTarihi = new DateTime(2022, 01, 01);
+                Odeme.belgeTarihi = new DateTime(2024, 01, 01);
                 Odeme.belgeNo = 1324567;
                 Odeme.belgeUQ = Guid.NewGuid();
                 Odeme.hesapKodu = "120 1 00001";
@@ -379,7 +393,7 @@ namespace Orka_Ticari
             //Örnek Model jsonları için https://api.orka.com.tr/doc bakabilirsiniz .
             var Odeme = new OdemeEkleBasit();
             {
-                Odeme.belgeTarihi = new DateTime(2022, 01, 01);
+                Odeme.belgeTarihi = new DateTime(2024, 01, 01);
                 Odeme.belgeNo = 1324567;
                 Odeme.belgeUQ = Guid.NewGuid();
                 Odeme.hesapKodu = "120 1 00001";
@@ -589,8 +603,8 @@ namespace Orka_Ticari
             //Request için QueryParametresi Ekleniyor
             Request.AddQueryParameter("customerCode", "120 1 00001");
             Request.AddQueryParameter("endcustomerCode", "120 1 00001");
-            Request.AddQueryParameter("startDate", "01.01.2022");
-            Request.AddQueryParameter("endDate", "31.12.2022");
+            Request.AddQueryParameter("startDate", "01.01.2024");
+            Request.AddQueryParameter("endDate", "31.12.2024");
 
             //Request için header içine yetki bilgileri ekleniyor. Bearer 
             //Request için header içine dönüş tipi bilgileri ekleniyor 
@@ -623,9 +637,9 @@ namespace Orka_Ticari
             Request.Method = Method.Get;
 
             //Request için QueryParametresi Ekleniyor
-            Request.AddQueryParameter("stockCode", "9960001");
-            Request.AddQueryParameter("startDate", "01.01.2022");
-            Request.AddQueryParameter("endDate", "31.12.2022");
+            Request.AddQueryParameter("stockCode", "5160759018116");
+            Request.AddQueryParameter("startDate", "01.01.2024");
+            Request.AddQueryParameter("endDate", "31.12.2024");
 
             //Request için header içine yetki bilgileri ekleniyor. Bearer 
             //Request için header içine dönüş tipi bilgileri ekleniyor 
@@ -635,10 +649,12 @@ namespace Orka_Ticari
 
             //Response (cevap) için oluşturuluyor içine Request(istek) gönderiliyor. 
             //OrkaResponse tüm dönüşlerde olan ana bir modeldir . Data kısmına ise kendi olutşurduğunuz modeli gönderebilirsiniz örneğin OrkaResponseModel<OLUSTURULAN MODEL>
-            var Response = Client.ExecuteAsync<OrkaResponseModel<IEnumerable<StokListDTO>>>(Request).Result;
+            var Response = Client.ExecuteAsync<OrkaResponseModel<IEnumerable<dynamic>>>(Request).Result;
+
+         
 
             //Response ekranda görüntülemek için yapıldı zorunlu değil
-            rchSonuc.Text = Response.Data.ToJson();
+            rchSonuc.Text = Response.Content;
 
             //Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
             if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))

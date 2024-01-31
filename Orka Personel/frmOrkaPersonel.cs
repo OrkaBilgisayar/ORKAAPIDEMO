@@ -71,8 +71,8 @@ namespace Orka_Personel
             Request.Method = Method.Get;
 
             //Request için QueryParametresi Ekleniyor
-            Request.AddQueryParameter("startJoinDate", "01.01.2022");
-            Request.AddQueryParameter("finishJoinDate", "31.01.2022");
+            Request.AddQueryParameter("startJoinDate", "01.01.2024");
+            Request.AddQueryParameter("finishJoinDate", "31.01.2024");
 
             //Request için header içine yetki bilgileri ekleniyor. Bearer 
             //Request için header içine dönüş tipi bilgileri ekleniyor 
@@ -84,13 +84,22 @@ namespace Orka_Personel
             //OrkaResponse tüm dönüşlerde olan ana bir modeldir . Data kısmına ise kendi olutşurduğunuz modeli gönderebilirsiniz örneğin OrkaResponseModel<OLUSTURULAN MODEL>
             var Response = Client.ExecuteAsync<OrkaResponseModel<IEnumerable<PersonelListDTO>>>(Request).Result;
 
-            //Response ekranda görüntülemek için yapıldı zorunlu değil
-            rchSonuc.Text = Response.Data.ToJson();
 
-            //Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
-            if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))
+            if(Response.Data != null)
             {
-                StatusLabel.Text = $"İşe başlayan personel listesi alındı. Kayıt Sayısı : {Response.Data.RecordSize}";
+				//Response ekranda görüntülemek için yapıldı zorunlu değil
+				rchSonuc.Text = Response.Data.ToJson();
+
+				//Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
+				if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))
+				{
+					StatusLabel.Text = $"İşe başlayan personel listesi alındı. Kayıt Sayısı : {Response.Data.RecordSize}";
+				}
+			}
+
+            else
+            {
+                rchSonuc.Text = Response.Content.ToString();
             }
         }
 
@@ -105,8 +114,8 @@ namespace Orka_Personel
             Request.Method = Method.Get;
 
             //Request için QueryParametresi Ekleniyor
-            Request.AddQueryParameter("startLeavingDate", "01.01.2022");
-            Request.AddQueryParameter("finishLeavingDate", "31.01.2022");
+            Request.AddQueryParameter("startLeavingDate", "01.01.2024");
+            Request.AddQueryParameter("finishLeavingDate", "31.01.2024");
 
             //Request için header içine yetki bilgileri ekleniyor. Bearer 
             //Request için header içine dönüş tipi bilgileri ekleniyor 
@@ -118,15 +127,25 @@ namespace Orka_Personel
             //OrkaResponse tüm dönüşlerde olan ana bir modeldir . Data kısmına ise kendi olutşurduğunuz modeli gönderebilirsiniz örneğin OrkaResponseModel<OLUSTURULAN MODEL>
             var Response = Client.ExecuteAsync<OrkaResponseModel<IEnumerable<PersonelListDTO>>>(Request).Result;
 
-            //Response ekranda görüntülemek için yapıldı zorunlu değil
-            rchSonuc.Text = Response.Data.ToJson();
 
-            //Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
-            if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))
+            if(Response.Data != null)
             {
-                StatusLabel.Text = $"İşten çıkan personel listesi alındı. Kayıt Sayısı : {Response.Data.RecordSize}";
-            }
-        }
+				//Response ekranda görüntülemek için yapıldı zorunlu değil
+				rchSonuc.Text = Response.Data.ToJson();
+
+				//Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
+				if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))
+				{
+					StatusLabel.Text = $"İşten çıkan personel listesi alındı. Kayıt Sayısı : {Response.Data.RecordSize}";
+				}
+			}
+
+			else
+			{
+				rchSonuc.Text = Response.Content.ToString();
+			}
+
+		}
 
         #endregion
 
@@ -155,15 +174,25 @@ namespace Orka_Personel
             //OrkaResponse tüm dönüşlerde olan ana bir modeldir . Data kısmına ise kendi olutşurduğunuz modeli gönderebilirsiniz örneğin OrkaResponseModel<OLUSTURULAN MODEL>
             var Response = Client.ExecuteAsync<OrkaResponseModel<IEnumerable<PersonelIzinListDTO>>>(Request).Result;
 
-            //Response ekranda görüntülemek için yapıldı zorunlu değil
-            rchSonuc.Text = Response.Data.ToJson();
 
-            //Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
-            if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))
+            if(Response.Data != null)
             {
-                StatusLabel.Text = $"Personel izin listesi alındı. Kayıt Sayısı : {Response.Data.RecordSize}";
-            }
-        }
+				//Response ekranda görüntülemek için yapıldı zorunlu değil
+				rchSonuc.Text = Response.Data.ToJson();
+
+				//Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
+				if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))
+				{
+					StatusLabel.Text = $"Personel izin listesi alındı. Kayıt Sayısı : {Response.Data.RecordSize}";
+				}
+			}
+
+			else
+			{
+				rchSonuc.Text = Response.Content.ToString();
+			}
+
+		}
 
         private void butAddPermit_Click(object sender, EventArgs e)
         {
@@ -187,9 +216,9 @@ namespace Orka_Personel
             {
                 Izin.tcKimlikNo = "52087578866";
                 Izin.isegiriscikis_kayitdamga = "01C795D0-9BAE-4D87-A04A-06EE4BAF41B4";
-                Izin.FirstDate = new DateTime(2022, 01, 15);
-                Izin.EndDate = new DateTime(2022, 01, 20);
-                Izin.WorkStartingDate = new DateTime(2022, 01, 21);
+                Izin.FirstDate = new DateTime(2024, 01, 15);
+                Izin.EndDate = new DateTime(2024, 01, 20);
+                Izin.WorkStartingDate = new DateTime(2024, 01, 21);
                 Izin.DayCount = 5;
                 Izin.WorkType = Enums.TIC_PUB_CALISMATIP.Yillik;
             }
@@ -230,14 +259,23 @@ namespace Orka_Personel
             //OrkaResponse tüm dönüşlerde olan ana bir modeldir . Data kısmına ise kendi olutşurduğunuz modeli gönderebilirsiniz örneğin OrkaResponseModel<OLUSTURULAN MODEL>
             var Response = Client.ExecuteAsync<OrkaResponseModel<IEnumerable<PersonelIzinListDTO>>>(Request).Result;
 
-            //Response ekranda görüntülemek için yapıldı zorunlu değil
-            rchSonuc.Text = Response.Data.ToJson();
-
-            //Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
-            if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))
+            if(Response.Data !=null )
             {
-                StatusLabel.Text = $"Personel izin talep listesi alındı. Kayıt Sayısı : {Response.Data.RecordSize}";
+				//Response ekranda görüntülemek için yapıldı zorunlu değil
+				rchSonuc.Text = Response.Data.ToJson();
+
+				//Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
+				if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))
+				{
+					StatusLabel.Text = $"Personel izin talep listesi alındı. Kayıt Sayısı : {Response.Data.RecordSize}";
+				}
+			}
+
+            else
+            {
+                rchSonuc.Text = Response.Content.ToString();
             }
+            
         }
 
         #endregion
@@ -267,14 +305,27 @@ namespace Orka_Personel
             //OrkaResponse tüm dönüşlerde olan ana bir modeldir . Data kısmına ise kendi olutşurduğunuz modeli gönderebilirsiniz örneğin OrkaResponseModel<OLUSTURULAN MODEL>
             var Response = Client.ExecuteAsync<OrkaResponseModel<IEnumerable<PersonelOdemeListDTO>>>(Request).Result;
 
-            //Response ekranda görüntülemek için yapıldı zorunlu değil
-            rchSonuc.Text = Response.Data.ToJson();
 
-            //Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
-            if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))
+
+
+            if (Response.Data != null)
             {
-                StatusLabel.Text = $"Personel icra listesi alındı. Kayıt Sayısı : {Response.Data.RecordSize}";
-            }
+				//Response ekranda görüntülemek için yapıldı zorunlu değil
+				rchSonuc.Text = Response.Data.ToJson();
+
+				//Statüs çubugu güncellemesi için yapıldı -- Zorunlu değil 
+				if (string.IsNullOrWhiteSpace(Response.Data.ErrorCodeDescription))
+				{
+					StatusLabel.Text = $"Personel icra listesi alındı. Kayıt Sayısı : {Response.Data.RecordSize}";
+				}
+			}
+
+            else
+
+            {
+				rchSonuc.Text = Response.Content.ToString();
+			}
+				
         }
         
         #endregion

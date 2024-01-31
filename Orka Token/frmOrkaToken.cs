@@ -84,7 +84,7 @@ namespace OrkaToken
                 Request.Method = Method.Get;
 
                 //Request için QueryParametresi Ekleniyor
-                Request.AddQueryParameter("CompanyDatabaseYear", "2023");
+                Request.AddQueryParameter("CompanyDatabaseYear", "2024");
 
                 //Request için header içine yetki bilgileri ekleniyor. Bearer 
                 //Request için header içine dönüş tipi bilgileri ekleniyor 
@@ -126,7 +126,7 @@ namespace OrkaToken
                 Request.Method = Method.Get;
 
                 //Request için QueryParametresi Ekleniyor 
-                Request.AddQueryParameter("VeritabaniKodu", "ORKA_0001_2023");
+                Request.AddQueryParameter("VeritabaniKodu", "ORKA_0001_2024");
 
                 //Request için header içine yetki bilgileri ekleniyor. Bearer 
                 //Request için header içine dönüş tipi bilgileri ekleniyor 

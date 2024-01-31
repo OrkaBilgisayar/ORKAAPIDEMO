@@ -1,0 +1,514 @@
+#################################################################################################################################################################################################################################
+
+Orka Bilgisayar Tic. ve San. Ltd.Þti.
+
+Bu proje en basit haliyle anlasilmasi için sade ve basit bir dil ile yazilmiþtir . 
+
+#################################################################################################################################################################################################################################
+
+DETAYLI ÖRNEKLER ÝÇÝN : https://api.orka.com.tr/yardim/dotNet/ altýna bakabilirsiniz.
+
+ENUMLAR  Orka Token -> Class -> Enums altýndadýr . 
+
+MODELLER Orka Token -> Model -> Modül adi (Örn. STK -> Stok ) -> STK_STOKBASLIK -> gibi bulunmaktadýr.
+
+Modellerin ne iþe yaradðý ile ilgili aþaðýda açýklamalarý aþaðýda bulabilirsiniz (Model isimleri ayný anda ORKA Veritabanlarýnýn içinde bulunan tablolarýn ismidir) . 
+
+#################################################################################################################################################################################################################################
+		
+########################################
+
+ORKAGENELTANIM VERÝTABANI
+
+########################################
+
+TABLO ADI					 TABLO AÇIKLAMASI
+
+GNL_POSTAKOD                 Posta Kodlarý Tablosu 
+GNL_VERGIDAIRE               Vergi Daireleri Tablosu
+GNL_TANIMLAMALAR             Genel Fiþ, Para ve Diðer Tanýmlamalar
+GNL_SABLONLAR                Hesap Planý ve Diðer Þablon Tanýmlamalarý
+GNL_PERSONELGURUP            Personel Genel Bilgi Amaçlý Gurup Tablolarý
+GNL_DOVIZLER_00              Döviz Kurlarý Tablosu
+GNL_BILANCOTANIM             Bilanço Genel Tanýmlamalarý
+GNL_OTVLISTE                 Özel Tüketim Vergisi Listesi
+GNL_BELGETIPLERI             Belge Tip Tanýmlamalarý
+GNL_AJANDA                   Ajanda
+GNL_PLANSBLBAS               Plan Þablonlarý Baþlýk Tablosu
+GNL_PLANSBLSAT               Plan Þablonlarý Satýr  Tablosu
+GNL_PLANHZRBAS               Hazýrlanan Plan Þablonlarý Baþlýk Tablosu
+GNL_PLANHZRSAT               Hazýrlanan Plan Þablonlarý Satýr Tablosu
+GNL_ULKELER                  Ülke Kodlarý Tablosu
+GNL_STOKBIRIM                Stok Birimleri Tablosu
+GNL_NITELIK                  Nitelik Gruplarý Tablosu
+GNL_KEBIRGRUP                Kebir Gruplarý Tablosu
+GNL_BANKAKOD                 Banka Kodlarý  Tablosu
+GNL_TERMINALTANIM            Terminal Tanýmlamalarý Tablosu
+GNL_RAPORTANIM               Rapor Tanýmlarý Tablosu
+GNL_GENELYARDIM              Genel Yardým Tablosu Tanýmlamalarý
+GNL_ORKATANIM                Orka Genel Tanýmlama Tablosu
+GNL_PTTKODSISTEM             Tüm Türkiye Posta Kodlarý Tablosu
+GNL_BANKASISTEM              Tüm Türkiye Banka Þube Kodlarý Tablosu
+GNL_SMMMBILGI                Muhasebeci Bilgileri Tablosu
+GNL_FIRMABEYAN               Firma Beyan Bilgileri
+GNL_KDVSABLON                KDV Þablonlarý
+GNL_MALITABLO                Mali Tablo Þablonlarý
+GNL_TRANALAN                 Transfer Alanlarý
+GNL_DIPNOTLAR                Dipnot þablonlarý
+GNL_DOSYAGRUPLAR             Ortak Belge Dosya Grup Tanýmlamalarý Tablosu
+GNL_KULLANICIGRUPLAR         Kullanýcý Grup Tanýmlamalarý Tablosu
+GNL_KULLANICITANIMLAR        Kullanýcý Tanýmlamalarý Tablosu
+GNL_KULLANICIHAKLAR          Kullanýcý Haklarý Taným Tablosu
+GNL_ICEBERGMODULLER          Program Modülleri Taným Tablosu
+GNL_FORMVERI                 Modül Veri Tanýmlarý Tablosu
+GNL_DONEMENDEX               Enflasyon Üfe Oranlarý Tablosu
+GNL_ENFTANIM                 Enflasyona Tabi Hesaplar Tablosu
+GNL_AMORTISMANLIST           Amortisman Oranlarý Tablosu
+GNL_MHTSRODEKOD              Muhtasar Ödeme Türleri Tablosu
+GNL_PLAN                     Hesap Planý Þablonlarý
+GNL_ISLHESAPOZET             Ýþletme Hesap Özeti Tanýmlarý
+GNL_ISLDEFTERHADLERI         Ýþletme Defter Hadleri Tanýmlarý
+GNL_BORDROTANIM              Ücret Bordrosu Asgari Ücret ve Tanýmlarý
+GNL_VERGIDILIM               Ücret Bordrosu Vergi Dilimi Tanýmlarý
+GNL_HARCIRAHDILIM            Ücret Bordrosu Harcýrah Dilimleri
+GNL_HARCIRAHTUTAR            Ücret Bordrosu Harcýrah Tutarlarý
+GNL_BELGEBILTURU             Ücret Bordrosu Belge Türleri
+GNL_GELIRTURLERI             Ücret Bordrosu Gelir Türleri
+GNL_TATILLER                 Ücret Bordrosu Resmi ve Bayram Tatil Tanýmlari
+GNL_SGKCIKISNEDENI           Ücret Bordrosu Ýþden Çýkýþ ve Eksik Gün Nedenleri
+GNL_TABOLDSIG                Ücret Bordrosu Tabi Olduðu Sigorta Kolu Kodu
+GNL_SGKMESLEKKOD             Ücret Bordrosu SGK Meslek Kodlari
+GNL_CALISMAGUNTIPI           Ücret Bordrosu Çalýþma Gün Tipleri
+GNL_OZLUKDOSYASI             Personel Özlük Dosyasýna Bulunmasý Gereken Standart Evraklar
+GNL_YASAKGRUPLAR             Firma Yasaklý Grup Tanýmlamalarý
+GNL_ORKACLIENT               Orka Kullanýcý Tablolarý
+GNL_CIHAZBASLIK              PDKS ve El Terminali Tanýmlama Sistemi Baþlýk
+GNL_CIHAZSATIR               PDKS ve El Terminali Tanýmlama Sistemi Satýr
+GNL_KULLANICIANAMODUL        Kullanýcý Ana Modül Büyük Düðme Tanýmlamalarý Tablosu
+GNL_FIRMAKULLANICILAR        Kullanýcý Firmalarý
+GNL_FIRMATANIM               Genel Firma Tanýmlarý
+GNL_FAALIYETKODLARI          Faaliyet Kodlarý Listesi.
+GNL_ORKADOSFIRMALAR          Orka DOS Firma Listesi.
+GNL_ICRADAIRELERI            Ýcra Daireleri Listesi.
+GNL_ISKURMESLEKKOD           Ýþ-Kur Meslek Kodlari
+GNL_FILTRE_SIRA              Genel Filtre ve Sýralama Tablosu
+GNL_BEYANNAMETURLERI         Beyanname Tipleri Tanýmý
+GNL_DONEMLER                 Beyanname Dönemleri
+GNL_LOGKAYIT                 Uyarý Sistem Loglarý
+GNL_BEYANNAMEVERSION         Beyanname Version Bilgileri Kaydedilmektedir.
+GNL_PRGFILTRETANIM           Filtre Alan Tanýmý Þablon Tablosu
+GNL_PRGFILTRESATIR           Filtre Alan Tanýmý Satýr Tablosu
+GNL_PRGFILTREVERI            Filtre Alan Tanýmý Verileri Tablosu
+GNL_YAZARKASATANIM           Yazar Kasa Tanýmlarý Tablosu
+GNL_HESAPMAKINE              Hafýzadaki Hesap Makinesi Deðerleri Tablosu
+GNL_LOGTABLO                 Yapýlan Ýþlemlerin Listesi Tablosu
+GNL_PIVOTBASLIK              Pivot Raporlarýnýn Tanýmlarý
+GNL_PIVOTSATIR               Pivot Raporlarýnýn Satýr Tanýmlarý
+GNL_ODEMETIPLERI             E-Defter Ödeme Tipleri Tanýmý
+GNL_EDEVLET_EK01             E-Defter EK Tablo-1
+GNL_EDEVLET_EK02             E-Defter EK Tablo-2
+GNL_EDEVLET_EK04             E-Defter EK Tablo-4
+GNL_EDEVLET_EK05             E-Defter EK Tablo-5
+GNL_EDEVLET_EK06             E-Defter EK Tablo-6
+GNL_EDEVLET_EK07             E-Defter EK Tablo-7
+GNL_EDEVLET_EK08             E-Defter EK Tablo-8
+GNL_EFATURADURUMU            E-Defter E-Fatura Durum Kodlarý Tablosu
+GNL_EPOSTALAR                E-Posta Tanýmlarý
+GNL_YAZICIFORMLARI           Yazýcý Form Dosyalarý Tanýmlarý
+GNL_TEKNOPARKLAR             Teknoparklar Listesi
+GNL_DISENTEGREKODLAR         Üçüncü Parti Yazýlým Kod Eþleþtirme Tanýmlarý
+GNL_EFATURAXSLT              E-Fatura Tasarým Alanlarý
+GNL_MESLEKGRUPLARI           Meslek Gruplarý Taným Tablosu
+GNL_TUIKALANLAR              Tuik Ýstatistik Kurumu Xml Alanlarý
+GNL_PRGALANLARI              Standart Rapor Alanlarý
+GNL_PRGRAPORTABLO            Rapor ve Tablo Tanýmlarý
+GNL_TABLOALANLARI            Rapor ve Tablo Alanlarý
+GNL_SERBESTBOLGE             Serbest Bölge Tanýmlarý
+GNL_OIVLISTE                 Özel Ýletiþim Vergisi Tablosu
+GNL_FASTREPORTLAR            Yazýcý Form Ýsimleri Tablosu
+GNL_KIMLIKLER                Noterler Birliðinden Aranan T.C. ve Vergi Nolar
+GNL_PLANANATUR               Hesap Planý Ana Faaliyet Tür Tanýmlamalarý
+GNL_TPLPOSTABASLIK           Gönderilen E-Posta Baþlýk
+GNL_TPLPOSTASATIR            Gönderilen E-Posta Satýr
+GNL_KDVBELGETIPLERI			 KDV Belge Tipleri Tanýmý
+GNL_STDYAZICIFORM            Standart Yazýcý Formlarýnýn Saklandýðý Tablodur.
+GNL_RAPORBASLIK              Kayýtlý Raporlar Listesi
+GNL_RAPORSATIR               Kayýtlý Raporlar Listesi
+GNL_EDEVLET_EK09             E-Fatura Kap Cinsleri EK Tablo-9
+GNL_BAGLANTILAR              e-Devlet Baðlantý Kodlarý Bulunmaktadýr.
+GNL_BANKAENTBASLIK           Özel Banka Ekstreleri Transferi
+GNL_BANKAENTSATIR            Özel Banka Ekstreleri Transferi
+GNL_YETKIBASLIK              Kullanýcý, Grup, Terminal Yetki Tanýmý Baþlýk
+GNL_YETKISATIR               Kullanýcý, Grup, Terminal Yetki Tanýmý Satýr
+GNL_TRANBAGLANTI             Transfer Için Baglanti Bilgileri
+GNL_XSLTBASLIK               e-Fatura XSLT Tasarimi Baslik
+GNL_XSLTSATIR                e-Fatura XSLT Tasarimi Satir
+GNL_XSLTNOT                  e-Fatura XSLT Notlarý
+GNL_FORMYETKI 				 Tüm formlarýn yetki tanýmlamalarý
+GNL_AYARDOSYALARI    		 Kullanýcý form ayarlarý saklanmaktadýr
+GNL_DOTNETLOG    		     DotNet log kayýtlarý tablosu
+
+GNL_ORKALANG_EN              Ýngilizce Dil Destek Tablosu
+GNL_ORKANETINFO              Orka Modül Giriþ Ýnformasyon Tablosu
+GNL_KISATANIMLAMALAR         Orka Tüm Modüller ImageComboBox verileri Tablosu
+GNL_BEYANHESAPTURLERI        Defter Beyan Kodlarý Listesi
+
+WEB_CALISMATIP	        	 OrkaWeb Çalýþma Tipleri
+WEB_YETKI_SISTEMI     		 OrkaWeb Yetki Sistemi
+WEB_GENELTANIM	   			 OrkaWeb Genel Tanýmlamalar
+WEB_ROL						 OrkaWeb Roller
+WEB_DUYURU		   			 OrkaWeb Duyurular
+WEB_SAYFA					 OrkaWeb Sayfa
+WEB_SURECTIP				 OrkaWeb Süreç Tipleri
+WEB_SURECTANIM				 OrkaWeb Süreç Tanýmlarý
+WEB_ISBASVURU	   			 OrkaWeb Ýþ Baþvurularý
+WEB_KULLANICI	     		 OrkaWeb Kullanýcýlar
+WEB_KULLANICIPROJE   		 OrkaWeb Kullanýcýya tanýmlanmýþ Projeler
+WEB_KULLANICIROL	    	 OrkaWeb Kullanýcý Rolleri
+WEB_KULLANICISUREC    		 OrkaWeb Kullanýcý Süreçleri
+WEB_ORGANIZASYON	    	 OrkaWeb Kullanýcý Organizasyon
+WEB_ORGANIZASYONDETAY   	 OrkaWeb Kullanýcý Organizasyon Detayý
+WEB_POZISYONLAR				 OrkaWeb Kullanýcý Pozisyonlar
+WEB_ROL_SAYFA				 OrkaWeb Rol Sayfalarý
+WEB_ROLYETKI	       	     OrkaWeb Rol Yetkileri
+WEB_SURECPROJE		   	     OrkaWeb Proje Süreçleri
+WEB_SURECROL			   	 OrkaWeb Rol Süreçleri
+WEB_TOKEN			   	     OrkaWeb Token Oturum
+WEB_PUANTAJ_TURLERI			 Puantaj Türleri
+WEB_ROLPUANTAJTURLERI		 Web Rol Puantaj Türleri
+WEB_AYARLAR          		 Web Ayarlar
+
+
+
+########################################
+
+ORKA FÝRMA VERÝTABANI (ÖRN: ORKA_0001_2022)
+
+########################################
+
+TABLO ADI					 TABLO AÇIKLAMASI
+
+ORT_PLAN                     Hesap Planý Tablosu
+ORT_BANKAHESAP               Firma Banka Hesaplarý Tablosu
+ORT_KDVTABLO                 Firma Muhasebe Tablosu KDV Tanýmlamalarý
+ORT_FISBASLIK                Bilanço, Iceberg Fiþ Baþlýk Tablosu
+ORT_FISSATIR                 Bilanço, Iceberg Fiþ Satýrlarý Tablosu
+ORT_MUHTABLOBAS              Muhasebe Tablolarý Baþlýk Tablosu
+ORT_MUHTABLOSAT              Muhasebe Tablolarý Satýrlarý Tablosu
+ORT_FIRMATANIM               Firma Genel Tanýmlarý
+ORT_TRANBASLIK               Transfer Þablon Baþlýk Bilgileri
+ORT_TRANBELGE                Transfer Edilen Belgeler
+ORT_TRANSATIR                Transfer Ayar Tablosu
+ORT_KAYITSBLBAS              Fiþ Þablon Baþlýk Taným Tablosu
+ORT_KAYITSBLSAT              Fiþ Þablon Satýr  Taným Tablosu
+ORT_KAYITSBLALT              Fiþ Þablon Karþý  Taným Tablosu
+ORT_TRANSATIREK              Transfer Satýr Parametreleri Tablosu
+ORT_BELGEFORMTANIM           Belgelere ait Form Tanýmlamla dosya kýsa yollarý
+ORT_BELGENUMARA              Belge Numaralarý
+ORT_FISTANIM                 Fiþ Tanýmlama Tablosu
+ORT_DOSYALAR                 Ortak Belge Dosya Tanýmlama Tablosu ***???***
+ORT_GRUPKEBIRTANIM           Grup Dosyalarý Seçim Kebir Dosyalarý
+ORT_KONUMTANIM               Þube Tanýmlamalarý
+ORT_OZELLIKLER               Özellik Tanýmlamalarý
+ORT_OZELLIKACIKLA            Özellik Açýklamalarý
+ORT_ENFLASYON                Dönemsel Enflasyon Hesaplamalarý Tablosu
+ORT_YUKLENILEN               Dönemsel Yüklenilen KDV Tablosu
+ORT_MUHTSODETANIM            Muhtasar Beyannamae Tanýmlamalarý Tablosu
+ORT_IDBELGELER               Belge No, Tarih, ID .. Bilgileri Tablosu
+ORT_TRANGEC                  Transfer Sonrasý Silinen Gecici Kayýtlar....
+ORT_BLGDONUSUM               Belge, Fiþ vs Dönüþümlerde Kullanýlan Tablo
+ORT_EKFISSATIR               Bilanço, Iceberg Ek Fiþ Satýrlarý Tablosu
+ORT_KEBIRBASLIK              Mizan ve Grup Mizan Raporlarýnda Tanýmlanan Kebirlere Ait Baþlýk Dosyasý
+ORT_FIRMAKONTROL             Günlük Fiþ,Fatura-Ödeme Kontrol Sistemi
+ORT_FONKSIYONLAR             Fonksiyon Tanýmlama Tablosu
+ORT_HESAPBAGLANTI            Hesap Planý Özel Baðlantý(Banka Hesaplarý..) Tablosu
+ORT_DISGELENBELGE            Diðer Programlarýn Gelen Insert Scriptlerinin Kaydedildiði Dosyadýr
+ORT_FISEXCELSABLON           Excel Fiþ Giriþ Þablon Taným Tablosu
+ORT_FISEXCELSATIR            Excel Fiþ Giriþi Belgeler Tablosu
+ORT_EYEVMIYEDEF              E-Defter Kayýtlarýnýn Kaydedildiði Tablo
+ORT_EDEFTER                  E-Defter Baþlýk Tablo
+ORT_BELGESERINO              E-Fatura Kullanýcýlarý Ýçin Cari Bazlý Belge Seri No Takibi
+ORT_DEFSUBELERI              E-Defterlerin Þubelere Göre Hazýrlanmasý Ýçin Tanýmlama Yapýldý.
+ORT_TUIK001                  Tuik Anket Formu Baþlýk Bilgileri
+ORT_TUIK006                  Tuik Anket Formu Baþlýk Bilgileri
+ORT_TUIK016                  Tuik Anket Formu Baþlýk Bilgileri
+ORT_TUIK025                  Tuik Anket Formu Baþlýk Bilgileri
+ORT_TUIKHESKOD               Tuik Anket Formu Hesap Kodu Tanýmlarý
+ORT_PERFORMTANIM             Program Performans Tanýmlamalarý
+ORT_KAYITNOTLAR              Ek Kayýt Notlarý Tablosu
+ORT_EDEVLETTANIM             E-Devlet Tanýmlarý Tablosu
+ORT_PLANGRUP                 Hesap Planýnda Devir Edilecek Gruplar
+ORT_TRANPERSONEL             Personel Kayýtlarýnýn Transferi Yapýlmaktadýr
+ORT_KURUMLAR                 Tüm Kurumlar Listesi
+ORT_DISGELENPERSONEL         Diðer Programlarýn Gelen Insert Scriptlerinin Kaydedildiði Dosyadýr
+ORT_KKEGTANIM                Kanunen Kabul Edilmeyen Gider Tanýmlamalarý
+ORT_KAYITALANLAR		     Kýsa Çalýþma Ödeneði vb. Kayýtlarýn Tutulduðu Tablo
+
+GRP_GENEL                    Genel Grup Tanýmlamalarý
+GRP_ADRES                    Adres Grup Tanýmlamalarý
+GRP_CARI                     Cari Grup Tanýmlamalarý
+GRP_PLASIYER                 Plasiyerler Tanýmlamalarý
+GRP_PERSONEL                 Personeller Tanýmlamalarý
+GRP_NAKLIYE                  Nakliyeciler Tanýmlamalarý
+GRP_GELIRLER                 Gelirler Tanýmlamalarý
+GRP_DEPARTMAN                Departman Tanýmlamalarý
+GRP_PROJEHIZMET              Proje,Hizmet Tanýmlamalarý
+GRP_ISTATISTIK               Ýstatistik Tanýmlamalarý
+GRP_STOKKOD                  Stok Kodu Grup Tanýmlamalarý
+GRP_DEPOYERI                 Depo Yeri Tanýmlamalarý
+GRP_SATISYERI                Satýþ Yeri Tanýmlamalarý
+GRP_KATALOG                  Katalog Tanýmlamalarý
+GRP_LISTE                    ListerYeri Tanýmlamalarý
+GRP_FIRMASEKTOR              Firma Sektör Tanýmlamalarý
+GRP_OZELLIKLER               Genel Grup Özellik Tanýmlamalarý
+GRP_OZELLIKACIKLA            Genel Grup Özellik Açýklamalarý
+GRP_GLOBALGRUP               Genel Global Grup Deðerleri Tablosu
+GRP_ORGBAS 					 Organizasyon Þemasý Baþlýk
+GRP_ORGSAT               	 Organizasyon Þemasý Satýr
+GRP_KAYITKTRL                Kayýtlarda grup girmeði zorunlu yapmak için
+
+ICE_CARIKART                 Cari Hesap Kartlarý
+ICE_CARIADRES                Cari Kart Adresleri
+ICE_CARIBANKA                Cari Kart Bankalarý
+ICE_CARIPERSONEL             Cari Kart Personelleri
+ICE_CARINOEK1                Cari Kart Ek-1 Bilgiler Tablosu
+ICE_NOTSISTEMI               Iceberg Stok Belge, Fiþ Not, Görev ve Resim Sistemi
+ICE_ACIKHESAPDEVIR           Açýk Hesaplar Devreden Tablosu
+ICE_ACIKHESAP                Açýk Hesaplar Tablosu
+ICE_CSVGIRIS                 Çek,Senet,Mail Order Giriþ Tablosu
+ICE_CSVHAREKET               Çek,Senet,Mail Order Hareketleri Tablosu
+ICE_CSVBASLIK                Çek,Senet,Mail Order Baþlýk Tablosu
+ICE_ODEMEBASLIK              Ödemeler Baþlýk Tablosu
+ICE_ODEMEBELGE               Ödemeler Belge Detaylarý Tablos=ACIKHESAPLAR
+ICE_ODEMEPLAN                Ödeme Planý Taksit Tablosu
+ICE_BELGEKAPAT               Ödeme, Belge Kapatma Tablosu
+ICE_EGITIMKIMLIK             Okul,Dershane... Öðrenci Kimlik Bilgi Tanýmlamalarý
+ICE_EGITIMTANIMLAR           Okul,Dershane... Cari Bilgiler Default Tanýmlamalarý
+ICE_KREDIBASLIK				 Banka Kredi Baþlýk Tanýmlarý
+ICE_KREDIMASRAF				 Banka Kredi Masraflarý Kayýt Tablosu
+ICE_KREDISATIR				 Banka Kredi Taksitleri Tablosu
+ICE_BUTCEBASLIK              Bütçe Tanýmý Tablosu
+ICE_BUTCEBASLIKTANIM         Bütçe Tanýmý Hesap Kodlarý Toplam Deðerleri Tablosu
+ICE_BUTCESATIR               Bütçe Tanýmý Hesap Kodlarý Satýr Tanýmlamalarý Tablosu
+ICE_BUTCEANAGRUP             Bütçe Ana Grup Tanýmlama Tablosu
+ICE_BUTCETIP                 Bütçe Tipleri Tanýmlama Tablosu
+ICE_BUTCEDONEMBASLIK         Bütçe Dönem Baþlýk Tanýmlamalarý Tablosu
+ICE_BUTCEDONEMSATIR          Bütçe Dönem Satýr  Tanýmlamalarý Tablosu
+ICE_FINANS                   Hesap Planý Tablosu
+
+STK_STOKKART                 Stok Kartlarý Ana Tablosu
+STK_STOKBASLIK               Stok Belgeleri Baþlýk Tablosu
+STK_STOKSATIR                Stok Belge Satýrlarý Tablosu
+STK_STOKPKTBAS               Stok Paketi Baþlýk Tablosu
+STK_STOKPKTSAT               Stok Paketi Satýrlarý Tablosu
+STK_STOKFIYATGRUP            Stok Kartlarý Fiyat Tablo Gruplarý
+STK_STOKFIYAT                Stok Kartlarý,Fiyat Tablosu
+STK_STOKCARIFIYAT            Stok Kartlarý Cari Fiyat Tablosu
+STK_RENKLER                  Stok Kartlarý Renkler Tablosu
+STK_BOYUTLAR                 Stok Kartlarý Boyutlar Tablosu
+STK_MODELLER                 Stok Kartlarý Modeller Tablosu
+STK_NITELIK                  Stok Kartlarý Nitelikleri Tablosu
+STK_MARKALAR                 Stok Kartlarý Markalarý   Tablosu -- aciklama uq
+STK_BARKODSYS1               Stok Kartlarý Barkod Yardýmcý Sistemi-1
+STK_STOKEKTANIM              Stok Kartlarý Ek Tanýmlama Sistemi
+STK_ITHALMALIYET             Ýthal Malýn Maliyetine Ait Belgeler
+STK_ACIKTUTARLAR             Açýk Hesap Tutar Taksitleri
+STK_CARISTOKPAKET            Stok Paketi + Cari Kart Fiyat (+Matrah) Tablosu
+STK_HIZLISIPARIS             Hýzlý Sipariþ Giriþi
+STK_ZRAPORBASLIK             Z Raporu Baþlýk Tablosu
+STK_ZRAPORSATIR              Z Raporu Satýrlarý
+STK_STOKSAYIM                Z Raporu Satýrlarý
+STK_STOKLOTNUMARA            Seri,Parti, Pozisyon, Lot Numara Tablosu
+STK_STOKMALIYETENV           Dönemsel Satýlan Malýn Maliyetini Hesaplamak Ýçin Kullanýldý
+STK_ECARISTOK                E-Fatura Cari Stok Kart Tanýmlama Tablosu
+STK_EFATURA                  E-Fatura Alýþ Entegrasyon Tablosu
+STK_EFATTANIM                Migros Gibi Firmalara Mal Satanlarýn E-Fatura Baþlýk Tanýmý
+STK_EFATFIRMA                Migros Gibi Firmalara Mal Satanlarýn E-Fatura Firma Tanýmý
+STK_EFATCARI                 Migros Gibi Firmalara Mal Satanlarýn E-Fatura Carinin Tanýmý
+STK_EFATSTOK                 Migros Gibi Firmalara Mal Satanlarýn E-Fatura Stok Kodu Tanýmý
+STK_EFATBELGE                Migros Gibi Firmalara Mal Satanlarýn E-Fatura Belge Tanýmý
+STK_KAMPANYALAR              Kampanya Taným Tablosu
+STK_ACIKTUTARBASLIK          Açýk Hesap Tutarlar Baþlýk Bilgileri Tanýmlama Tablosu
+STK_SAYIMBASLIK              Stok Sayým Baþlýk Bilgileri Kayýt Ediliyor
+STK_ITHALATIHRACAT           Ýthalat ve Ýhracat Bilgileri Kayýt Ediliyor
+STK_EFATURASATIR             E-Fatura Satýrlarýný Ýfade Ediyor
+STK_INDIRIMBASLIK            Indirimlerin Baþlýk Taným Tablosudur.
+STK_INDIRIMSATIR             Indirimlerin Oranlarinin Baþlýða Ait Taným Tablosudur.
+STK_ODEME                    Stok Belge Ödemeleri
+STK_OTVTANIM                 Firmaya Özel ÖTV Tanýmlamalarý
+STK_ETICSTKES                e-Ticaret stok kartý eþleþme tanýmlamalarý
+
+IST_AYARLAR                  Benzin Ýstasyonu Transfer Ayarlarý
+IST_SUBEAYARLARI             Benzin Ýstasyonu Þube Ayarlarý
+IST_ODEMEHPLAN               Benzin Ýstasyonu Þube Ödeme Hesap Planlarý
+IST_SBLAYARLARI              Benzin Ýstasyonu Þablon Ayarlarý
+IST_SBLPARAMETRE             Benzin Ýstasyonu Þablon Parametreleri
+IST_BASLIK                   Benzin Ýstasyonu Vardiya Baþlýklarý
+IST_SATIR                    Benzin Ýstasyonu Vardiya Satýrlarý
+IST_ODEME                    Benzin Ýstasyonu Ödeme Giriþleri
+
+URE_URETIMBASLIK             Üretim Baþlýk Tanýmlamalarý
+URE_URETIMSATIR              Üretim Satýr Tanýmlamalarý
+URE_DAGITIMBASLIK            Üretim Daðýtým Baþlýk Tanýmlamalarý
+URE_DAGITIMSATIR             Üretim Daðýtým Satýr Tanýmlamalarý
+URE_FIREBASLIK               Üretim Fire Baþlýk Tanýmlamalarý
+URE_FIRESATIR                Üretim Fire Satýr Tanýmlamalarý
+URE_KYTURETIMBASLIK          Çalýþtýrýlan Üretim Baþlýk Bilgileri
+URE_KYTURETIMSATIR           Çalýþtýrýlan Üretim Satýr Bilgileri
+URE_KYTDAGITIMSATIR          Çalýþtýrýlan Üretim Daðýtým Bilgileri
+
+ISM_HESAPOZETI               Ýþletme Hesap Özeti Deðerleri Tablosu
+ISM_DEFTERBEYAN              Defter Beyan Kayýt Tablosu
+
+SAB_KARTLAR                  Demirbaþ Tanýtým Kartlarý Listesi
+SAB_KARTLAREKGIRIS           Demirbaþ Zimmet ve Diðer Giderleri Giriþ Tablosu
+SAB_AMORTISMAN               Demirbaþ Ýçin Hesaplanan Amortisman Kayýtlarý
+SAB_FONKULLAN                Demirbaþ Satýþ Karý Takip Sistemi
+SAB_GIDERTAH                 Demirbaþ Gider Tahakkuklarý Takip Sistemi
+SAB_KARTBASLIK               Demirbaþ Fatura Baþlýk Bilgileri
+SAB_ZIMMET                   Demirbaþ Zimmet Yeri Takip Bilgileri
+
+BIL_DIPNOTLAR                Mali Tablo Dip Notlar Taným Tablosu
+BIL_KDVBEYAN                 KDV Beyannanname Tablosu
+BIL_KDVEKLER                 KDV Beyannanname Ekler Tablosu
+BIL_KDVHESKOD                KDV Beyannanname Hesap Kodlarý Tablosu
+BIL_KDVSERBEST               KDV Beyannanname Serbest Tutar Tablosu
+BIL_MALITABEK                Mali Tablolarý Ek (Nakit Akým)
+BIL_MALITABLO                Mali Tablolarý
+BIL_YANSITMA                 Yansýtma Taným Tablosu
+BIL_BABSTANIM                BA-BS Taným Tablosu
+BIL_ENVANTER                 Bilanço Envanter Defteri Taným Tablosu
+BIL_STOKKART                 Bilanço Stok Kartlarý Taným Tablosu
+BIL_MALIYETBASLIK            Bilanço Maliyet Ana Taným Tablosu
+BIL_MALIYETDONEM             Bilanço Maliyet Dönemsel Kar Oranlarý Tablosu
+BIL_MALIYETHESAP             Bilanço Maliyet Plan Kod Tanýmlamalarý Tablosu
+BIL_STOKFISBAS               Bilanço Stok Baþlýk Tablosu
+BIL_STOKFISSAT               Bilanço Stok Satýr Tablosu
+BIL_ONDONMALITABLO           Önceki Dönem Mali Tablo Bilgilerinin Girildiði Tablodur
+BIL_BABSTUTAR                BA-BS Özel Tutarlarý Girilen Tablodur
+BIL_POSETBEYSATIR            Poþet Beyannamesi Ek Tablolar Kayýt Ediliyor
+
+PUB_VARDIYALAR               Ücret Bordrosu Vardiya Baþlýk Tanýmlarý
+PUB_VARDIYADETAY             Ücret Bordrosu Vardiya Detay Tanýmlarý
+PUB_PUANTAJSAAT              Ücret Bordrosu Puantaj Saat Bilgileri
+PUB_MESAITANIM               Ücret Bordrosu Mesai Oran Tanýmlari
+PUB_ISEGIRISCIKIS            Ücret Bordrosu Personel Kimlik Bilgileri
+PUB_PUANTAJ                  Ücret Bordrosu Personel Toplam Puantaj
+PUB_SGKEKSIKGUN              Ücret Bordrosu SGK Eksik Gün Bildirimi
+PUB_PUANTAJSAATDETAY         Ücret Bordrosu Çalýþýlan Gün Detayý
+PUB_IZINLER                  Ücret Bordrosu Ýzin Planlamalarý
+PUB_TABOLDSIGDETAY           Tabi Olduðu Sigorta Detaylari
+PUB_VARDIYAPLANLARI          Vardiya Planlarý Tarih Aralýklý
+PUB_GELIRLER                 Dönemsel Personel Gelirleri
+PUB_BORDRO                   Aylýk Bordro Bilgileri
+PUB_GELIRTURLERI             Firmaya Özel Gelir Tür Tanýmý
+PUB_SGKDEVIRLERI             SGK Devirleri
+PUB_BESSAGLIKSIG             Bireysel Emeklilik Sigortalarý
+PUB_HARCIRAHTUTAR            Yurt Ýçi ve Yurt Dýþý Harcýrahlar
+PUB_KIMLIKLER                Personel Kimlik Kayitlari Tablosu
+PUB_ADRESLER                 Adresler Tablosu
+PUB_YAKINLARI                Personel Yakýnlari Tablosu
+PUB_CALISILANYERLER          Daha Önce Çalýþtýðý Ýþyerleri
+PUB_OGRENIMDURUMU            Öðrenim Durumu Bilgileri
+PUB_DEVIRGELIRTURLERI        Devir Edilecek Gelir Türleri
+PUB_MESAILER                 Mesai Saat ve Tutar Giriþleri
+PUB_HESPLAN                  Personel Hesap Planýna Baðlý Tablolar
+PUB_TAZMINATLAR              Kýdem ve Ýhbar Tazminat Bilgileri
+PUB_TAZMINATDETAY            Kýdem ve Ýhbar Tazminatýna Ait Ýlave Gelirlerin Tutulduðu Tablo
+PUB_OZLUKDOSYASI             Personellerin Özlük Dosya Bilgileri
+PUB_ONPUANTAJSAAT            Transferden Gelen Giriþ - Çýkýþ Saatleri
+PUB_ODEMEBASLIK              Personele Yapýlan Avans, Borç ve Banka Ödemelerinin Takibi Tablosu
+PUB_ODEMESATIR               Borç Taksitlerinin Planlandýðý Tablo
+PUB_ZIMMETKART               Zimmet Edilecek Emtialar Tablosu
+PUB_ZIMMETBASLIK             Zimmet Belgesinin Baþlýk Tablosu
+PUB_ZIMMETSATIR              Zimmet Belgesinin Satýr Tablosu
+PUB_ICRALAR              	 Ýcra Listelerinin Kaydediliði Tablodur
+PUB_ICRAODEMELERI            Ýcra Aylýk Kesintilerin Yapýldýðý Tablodur
+PUB_CALISMAHAREKETTIPI       Çalýþma Hareket Tipleri Tanýmlamalarýdýr.
+PUB_CALISMADUZENI            Gün Ýçi Dönüþümlerle Ýlgili Tanýmlamalarýdýr.
+PUB_CALISMADUZENIDETAY       Gün Ýçi Hareket Detay Tanýmlamalarýdýr.
+PUB_CALISMAPLANLARI          Gün Ýçinde Yemeðe Çýkýþ Ýçin Dönüþümlü Plan Kayýtlarý
+PUB_PERSONELVARDIYASI        Personellerin Hangi Gün Hangi Vardiyada Çalýþtýðýný Gösteren Tablodur
+PUB_PERSONELVARDIYADETAYI    Personelin Gün Ýçin Hareketlerinin Kayýt Edildiði Tablodur
+PUB_SENDIKALAR               Sendika Tanýmlamalarý
+PUB_SENDIKATABLO             Sendika Grup ve Gelir Tip Tanýmlamalarý
+PUB_SENDIKAGELIRTANIMI       Sendika Dönemsel Hak Tanýmlamarýdýr
+PUB_AKORTBASLIK              Akort Belge Baþlýk Tanýmlarý
+PUB_AKORTSATIR               Akort Belge Satýr Tanýmlarý
+PUB_EGTPLAN                  Personel Eðitim Tanýmlamalarý
+PUB_EGTKATILAN               Eðitime Katýlan Personeller
+PUB_KNTFIRMA                 Kontrolleri Yapan Firma Bilgileri
+PUB_KNTTANIM                 Yapýlacak Kontrolller Tanýmý
+PUB_KNTPERSONEL              Yapýlacak Kontrollerin Kaydedilmesi
+PUB_GELVERTABUCRET           Çalýþma Yerlerine Göre Ücret Girilmesi
+PUB_SGKTABUCRET              Tab. Old. Sig. Göre Ücret Girilmesi
+PUB_DEVIRMESAI               Devir Mesai Saatleri
+PUB_AGITESVIKTUTAR			 AGÝ SGK Teþvik Tutarlarý Kayýt Ediliyor
+PUB_CALISMADUZENIMOLA        Çalýþma Molalarýnýn Giriþ Bilgileridir.
+PUB_TESVIKTANIM              Teþvik Tanýmlarýnýn Kaydedildiði Tablodur.
+PUB_CALISILMAYANSURELER      Personelin Ýzin Günü Hesabý Ýçin Düþülecek Süreler.
+PUB_PERSONPROFIL             Personel Profil Tanýmlarý
+PUB_GRUPDEGERLERI            Personel Gruba Ait Degerler Devrenden AGI
+PUB_GELIRDETAY               Profile Ait Personel Gelir Detay Bilgileri Kayýt Ediliyor
+PUB_MESAIHESAPLARI           PDK Mesai Hesaplama Tipleri
+PUB_GRUPVARDIYALARI          Gruba Ait Vardiyalar
+PUB_PDKSGRUPLAR              Vardiya, Çalýþma ve Mesai Gruplarý
+PUB_ICRAGELIRTURLERI         Firmaya Özel Ýcra Gelir Türleri
+
+
+########################################
+
+ORKABURO VERÝTABANI
+
+########################################
+
+TABLO ADI					 TABLO AÇIKLAMASI
+
+BYO_ALANLAR                  Makbuz Giriþde Kullanýlacak Alanlar
+BYO_MUHTASARKODLARI          Muhtasar Ödeme Kodlarý Listesi
+BYO_HESAPLAMATIPLERI         Makbuz Hesaplama Tipleri
+BYO_HESAPLAMATABLOSU         Makbuz Hesaplama Tablosu
+BYO_ZIRAIURUNLER             Zirai Ürünler Listesi Tablosu
+BYO_MUHTASARORANLARI         Muhtasar Oranlarý Listesi
+BYO_KIRALAR                  Kira Kayýtlarýnýn Tutulduðu Tablosu
+BYO_MAKBUZBASLIK             Makbuz Baþlýk Bilgilerinin Tutulduðu Tablo
+BYO_MAKBUZSATIR              Makbuz Satýr Bilgilerinin Tutulduðu Tablo
+BYO_GECICIVERGI              Geçici Vergi Beyannamesindeki Baþlýk Bilgilerinin Yer Aldýðý Tablo
+BYO_GECICIVERGISATIR         Geçici Vergi Beyannamesi Tablo Sistemi
+BYO_DEFTERTURLERI            Defter Türleri
+BYO_ONAYLANANDEFTERLER       Noter Birliðine Gönderilenler
+BYO_KURUMLARVERGISI          Kurumlar Vergisi Beyannamesi
+BYO_GELIRVERGISI             Gelir Vergisi Beyannamesi
+BYO_GELIRVERGISISATIR        Gelir Vergisi Beyannamesi Satýr Bilgileri
+BYO_GELIRVERGISITABLO        Gelir Vergisi Beyannamesi Lookuplar Listesi
+BYO_VERGIORANLARI            Vergi Oranlarý Listesi
+BYO_EDEVLETLISTE             Meslek Odalarý Kurumlarý Elektrik, Doðalgaz Kurumlarý
+BYO_MUKELLEFBILDIRIM         Mükellef Bildirimi Ýle Ýlgili Konular
+BYO_TKNPARKAYAR              Teknopark Ayarlarý Tablosu
+BYO_TKNPARKPROJE             Teknopark Proje Tanýmlarý
+BYO_TKNPARKDONEM             Teknopark Proje Dönemsel Toplamlar
+BYO_TKNPARKPERSONEL          Teknopark Proje Dönemsel Hareketler
+BYO_TKNPARKMUHDONEM          Teknopark Muhtasar Dönemleri
+BYO_KKEGHESKOD               Kanunen Kabul Edilmeyen Gider Hesap Kodlarý Tanýmý
+BYO_KURUMLARVERGISISATIR     Kurumlar Vergisi Beyannamesi Ek Tablolar Kayýt Ediliyor
+
+
+########################################
+
+ORKARESIMLER VERÝTABANI
+
+########################################
+
+TABLO ADI					 TABLO AÇIKLAMASI
+
+RESIMLER                     Tüm Sistemde Firmalara Özel Resim Tanýmlarý
+DOSYALAR                     Tüm Sistemde Firmalara Özel Dosya Tanýmlarý
+NOTVEGOREVLER                Tüm Sistemde Firmalara Not ve Görevler
+NOTVEGOREVPERSONEL           Tüm Sistemde Firmalara Not ve Görev Personelleri
+UYARITANIMLARI               Tüm Uyarý Sistemleri Kayýt Ediliyor.
+ORK_BEYANNAMELER             Ýndirilen Beyannameler Takip Ediliyor.
+ORK_ETEBLIGAT                Ýndirilen Tebligatlar Takip Ediliyor.
+
+
+
+#################################################################################################################################################################################################################################
