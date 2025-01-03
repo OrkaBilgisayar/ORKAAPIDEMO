@@ -134,7 +134,7 @@ namespace Orka_Ticari
                 Siparis.cariKodu = "120 1 00001";
                 Siparis.belgeSeriNo = "A";
                 Siparis.belgeNo = 31;
-                Siparis.belgeTarihi = new DateTime(2024, 01, 01);
+                Siparis.belgeTarihi = new DateTime(2025, 01, 01);
                 Siparis.belgeAciklamasi = "deneme Sipariş ";
                 Siparis.belgeUQ = Guid.NewGuid();
                 Siparis.Satirlar = new List<BelgeSatirlariBase>()
@@ -196,7 +196,7 @@ namespace Orka_Ticari
                 Siparis.cariKodu = "120 1 00001";
                 Siparis.belgeSeriNo = "A";
                 Siparis.belgeNo = 31;
-                Siparis.belgeTarihi = new DateTime(2024, 01, 01);
+                Siparis.belgeTarihi = new DateTime(2025, 01, 01);
                 Siparis.belgeAciklamasi = "deneme Sipariş ";
                 Siparis.belgeUQ = Guid.NewGuid();
                 Siparis.Satirlar = new List<BelgeSatirlariBase>()
@@ -300,8 +300,8 @@ namespace Orka_Ticari
             var Filter = new List<OdemeListFilterDTO>();
          
             Filter.Add(new OdemeListFilterDTO { 
-                belgeTarihi = new DateTime(2024, 01, 01),
-                bitisBelgeTarihi = new DateTime(2024, 12, 31)
+                belgeTarihi = new DateTime(2025, 01, 01),
+                bitisBelgeTarihi = new DateTime(2025, 12, 31)
 		    });
             
             //Oluşturulan modeli Request içine ekliyoruz 
@@ -343,7 +343,7 @@ namespace Orka_Ticari
             //Örnek Model jsonları için https://api.orka.com.tr/doc bakabilirsiniz .
             var Odeme = new OdemeEkleBasit();
             {
-                Odeme.belgeTarihi = new DateTime(2024, 01, 01);
+                Odeme.belgeTarihi = new DateTime(2025, 01, 01);
                 Odeme.belgeNo = 1324567;
                 Odeme.belgeUQ = Guid.NewGuid();
                 Odeme.hesapKodu = "120 1 00001";
@@ -393,7 +393,7 @@ namespace Orka_Ticari
             //Örnek Model jsonları için https://api.orka.com.tr/doc bakabilirsiniz .
             var Odeme = new OdemeEkleBasit();
             {
-                Odeme.belgeTarihi = new DateTime(2024, 01, 01);
+                Odeme.belgeTarihi = new DateTime(2025, 01, 01);
                 Odeme.belgeNo = 1324567;
                 Odeme.belgeUQ = Guid.NewGuid();
                 Odeme.hesapKodu = "120 1 00001";
@@ -603,8 +603,8 @@ namespace Orka_Ticari
             //Request için QueryParametresi Ekleniyor
             Request.AddQueryParameter("customerCode", "120 1 00001");
             Request.AddQueryParameter("endcustomerCode", "120 1 00001");
-            Request.AddQueryParameter("startDate", "01.01.2024");
-            Request.AddQueryParameter("endDate", "31.12.2024");
+            Request.AddQueryParameter("startDate", "01.01.2025");
+            Request.AddQueryParameter("endDate", "31.12.2025");
 
             //Request için header içine yetki bilgileri ekleniyor. Bearer 
             //Request için header içine dönüş tipi bilgileri ekleniyor 
@@ -638,8 +638,8 @@ namespace Orka_Ticari
 
             //Request için QueryParametresi Ekleniyor
             Request.AddQueryParameter("stockCode", "5160759018116");
-            Request.AddQueryParameter("startDate", "01.01.2024");
-            Request.AddQueryParameter("endDate", "31.12.2024");
+            Request.AddQueryParameter("startDate", "01.01.2025");
+            Request.AddQueryParameter("endDate", "31.12.2025");
 
             //Request için header içine yetki bilgileri ekleniyor. Bearer 
             //Request için header içine dönüş tipi bilgileri ekleniyor 

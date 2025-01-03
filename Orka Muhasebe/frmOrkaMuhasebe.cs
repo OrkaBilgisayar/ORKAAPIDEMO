@@ -368,8 +368,8 @@ namespace Orka_Muhasebe
                 Fis.fisTipi = Enums.TIC_FIS_TIPLERI._FisTipMahsup_;
                 Fis.belgeTipi = Enums.TIC_BELGE_TIPLERI._Fatura_;
                 Fis.belgeNo = 4548;
-                Fis.fisTarihi = new DateTime(2024, 01, 01);
-                Fis.belgeTarihi = new DateTime(2024, 01, 01);
+                Fis.fisTarihi = new DateTime(2025, 01, 01);
+                Fis.belgeTarihi = new DateTime(2025, 01, 01);
                 Fis.seriNo = "EAR";
                 Fis.fisaciklama = "Satış Faturası";
                 Fis.fisGuid = Guid.NewGuid();

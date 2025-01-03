@@ -383,3 +383,131 @@ C:\Orka Projeler\ORKA API EXAMPLES\ORKAAPIDEMO\Orka Token\obj\Debug\Orka Token.c
 C:\Orka Projeler\ORKA API EXAMPLES\ORKAAPIDEMO\Orka Token\obj\Debug\Orka Token.csproj.CopyComplete
 C:\Orka Projeler\ORKA API EXAMPLES\ORKAAPIDEMO\Orka Token\obj\Debug\Orka Token.dll
 C:\Orka Projeler\ORKA API EXAMPLES\ORKAAPIDEMO\Orka Token\obj\Debug\Orka Token.pdb
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\Orka Token.dll.config
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\Orka Token.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\Orka Token.pdb
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\netstandard.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.AppContext.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Collections.Concurrent.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Collections.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Collections.NonGeneric.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Collections.Specialized.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.ComponentModel.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Console.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Data.Common.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Diagnostics.Debug.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Diagnostics.Process.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Diagnostics.Tools.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Drawing.Primitives.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Dynamic.Runtime.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Globalization.Calendars.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Globalization.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Globalization.Extensions.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.IO.Compression.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.IO.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.IO.FileSystem.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.IO.Pipes.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Linq.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Linq.Expressions.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Linq.Parallel.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Linq.Queryable.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Net.Http.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Net.NameResolution.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Net.NetworkInformation.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Net.Ping.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Net.Primitives.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Net.Requests.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Net.Security.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Net.Sockets.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Net.WebSockets.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.ObjectModel.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Reflection.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Reflection.Extensions.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Reflection.Primitives.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Resources.Reader.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Resources.ResourceManager.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Resources.Writer.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Runtime.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Runtime.Extensions.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Runtime.Handles.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Runtime.InteropServices.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Runtime.Numerics.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Security.Claims.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Security.Principal.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Security.SecureString.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Text.Encoding.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Text.RegularExpressions.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Threading.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Threading.Overlapped.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Threading.Tasks.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Threading.Thread.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Threading.ThreadPool.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Threading.Timer.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Xml.XDocument.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Xml.XmlDocument.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Xml.XPath.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\Newtonsoft.Json.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\RestSharp.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Buffers.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Memory.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Numerics.Vectors.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Text.Encodings.Web.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Text.Json.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.ValueTuple.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\Newtonsoft.Json.xml
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\RestSharp.xml
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Buffers.xml
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Memory.xml
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Numerics.Vectors.xml
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Text.Encodings.Web.xml
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Text.Json.xml
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\bin\Debug\System.ValueTuple.xml
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\obj\Debug\Orka Token.csproj.AssemblyReference.cache
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\obj\Debug\OrkaToken.frmOrkaToken.resources
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\obj\Debug\Orka_Token.Properties.Resources.resources
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\obj\Debug\Orka Token.csproj.GenerateResource.cache
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\obj\Debug\Orka Token.csproj.CoreCompileInputs.cache
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\obj\Debug\Orka Token.csproj.CopyComplete
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\obj\Debug\Orka Token.dll
+C:\Orka Projeler\ORKAAPIDEMO\Orka Token\obj\Debug\Orka Token.pdb
